@@ -101,7 +101,7 @@ Here is a showcase of the application's user interface:
    Open the services folder (`frontend/lib/services/`). For each service file (ex: `auth_service.dart`, `shop_service.dart`, etc.), verify that `baseUrl` corresponds to your local IP Address.
    *Example:*
    ```dart
-   static const String baseUrl = 'http://192.168.100.46:5000';
+   static const String baseUrl = '(YourLocalIP):5000';
    ```
    Change the IP to match your local Wi-Fi router IP (which usually hosts the backend Node.js server) if deploying on a physical device, or use `10.0.2.2` if testing via Android Emulator.
 
