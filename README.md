@@ -9,7 +9,7 @@ A fully functional, professional e-commerce application built with a **Flutter**
 
 ---
 
-## 📸 UI Gallery
+## UI Gallery
 
 Here is a showcase of the application's user interface:
 
@@ -28,7 +28,7 @@ Here is a showcase of the application's user interface:
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **User Authentication**: Secure Login/Register flows with JWT integration.
 - **Dynamic Shopping Cart**: Effortlessly add, remove, and manage products.
@@ -58,7 +58,7 @@ Here is a showcase of the application's user interface:
 
 ---
 
-## 🚀 Setup Guide
+## Setup Guide
 
 ### 1. Database Setup (MySQL)
 1. Ensure your local MySQL server is running.
@@ -110,7 +110,4 @@ Here is a showcase of the application's user interface:
    flutter run
    ```
 
----
 
-## 🔒 Security Audited
-Secrets inside the codebase (via `.env`) and external database/cache configurations run outside of the tracking tree. A robust `.gitignore` prevents leaks of any `node_modules`, `.env` keys, keystores, database backups, cache structures or macOS `DS_Store` indices. All external secrets should be injected via environments.
